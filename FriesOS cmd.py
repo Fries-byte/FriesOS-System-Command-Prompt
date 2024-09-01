@@ -1,27 +1,56 @@
-#----ShortCut(s)-----#
+# Please dont edit line 2
+# Fries-Byte made this, open-source
 
-txt = ".txt"
-
-#----ShortCut(s)---#
-
-
-#-----System-------#
+inuser = input("Name the Operating System:~$ ")
+print("hosting Server...")
+print("server loaded!")
+print("                                                                                                                 ")
 print("FriesOS Operating System [Version 1.0]")
 print("(c)Fries-Byte in GitHub 2024")
-
-startup = input("C:/Users/FreshFrenchFries>")
-
-if startup == "help":
-        input("sudo; run a file. cfile; will create a file. restart the program if want to continue")
-           
-if startup == "cfile":
-    fn = input("File Name NOTE: WILL ALWAYS BE A .txt FILE; ")
-    print(fn+ ".txt was successfully created")
-    fin = input("In; ")
-    print(fin+". Has been added into "+fn+txt)
+while 1 == 1:
+    serverip = input(inuser+ "@serverhost.test:~$ ")
     
-#-----System-------#
+    if serverip == "cfile":
+        cfile = input("FileName:~$ ")
+        infile = input("FileText:~$ ")
+        
+    if serverip == "cfile2":
+        cfile2 = input("FileName:~$ ")
+        infile2 = input("FileText:~$ ")
+    
 
-raise ValueError()
-        print("'text' is is not recognized as an internal or external command,
-operable program or batch file.")
+    if serverip == "file -l":
+        print(cfile)
+        print(cfile2)
+    
+    if serverip == "info":
+        print("server name: "+inuser)
+        print("server ip: "+serverip)
+    
+    if serverip == "inls":
+        print(infile)
+        print(infile2)
+    
+    if serverip == "name .server":
+        print(inuser+"/")
+        
+    if serverip == "state -net":
+        print("Network State: Offline")
+    
+    
+    if serverip == "cd":
+        print(inuser+"@serverhost.test/Server/Storage/Files/.Useagefiles.")
+        print(".. is an inaccessable place")
+        pickcd = input("Where do you wish to go?:~$ ")
+    
+        if pickcd == "Server":
+         print("successfully moved!")
+    
+        if pickcd == "Storage":
+           print("successfully moved!")
+    
+        if pickcd == "Files":
+           print("successfully moved!")
+    
+        if pickcd == "Useagefiles":
+            print("DIRECTORY'S BLOCKED")
