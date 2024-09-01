@@ -19,15 +19,16 @@ while 1 == 1:
         infile2 = input("FileText:~$ ")
     
 
-    if serverip == "file -l":
+    if serverip == "file -load":
         print(cfile)
         print(cfile2)
     
-    if serverip == "info":
+    if serverip == "info -s":
         print("server name: "+inuser)
         print("server ip: "+serverip)
+        print("server state: perfect")
     
-    if serverip == "inls":
+    if serverip == "textfile -load":
         print(infile)
         print(infile2)
     
