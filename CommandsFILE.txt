@@ -1,0 +1,16 @@
+
+cfile: cfile stands for "create-file", it will create a .txt file, you can edit it by typing the same code
+
+cfile2: is the same thing but a second one
+
+file -load: as it stands for, it will load the files cfile and the cfile2.
+
+info -s: info -s, the s stands for server, it will show the servers info
+
+textfile -load: will load the text inside the file of cfile and cfile2
+
+name .server: will load the server's name, kinda useless
+
+state -net: will show the state of the network
+
+cd: will change your directory. also abit useless..
